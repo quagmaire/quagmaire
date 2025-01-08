@@ -128,7 +128,7 @@ class ConnectionManager:
             # Count required parameters
             required_params_count = sum(1 for param in action.parameters if param.required)
             
-            # Check if we have enough parameters
+            # Check if we have enough parameters. Giggity.
             if len(params) != required_params_count:
                 param_names = [param.name for param in action.parameters if param.required]
                 logging.error(f"\nError: Expected {required_params_count} required parameters for {action_name}: {', '.join(param_names)}")
