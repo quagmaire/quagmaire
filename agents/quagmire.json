@@ -53,7 +53,7 @@
        }
      ],
      "tasks": [
-       {"name": "post-tweet", "weight": 6},
+       {"name": "post-tweet", "weight": 7},
        {"name": "reply-to-tweet", "weight": 1},
        {"name": "like-tweet", "weight": 0}
      ]
